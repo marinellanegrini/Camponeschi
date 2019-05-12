@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="univaq.progetto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".first_time">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity1483" />
+        <activity android:name=".activity1494" />
+        <activity android:name=".activity1783" />
+        <activity android:name=".activity1827" />
+        <activity android:name=".activity1596" />
+        <activity android:name=".activity1926" />
+        <activity android:name=".activity1979" />
+        <activity android:name=".pag13" />
+        <activity android:name=".pag15" />
+        <activity android:name=".conclusione" />
+        <activity android:name=".pag12" />
+        <activity android:name=".activity1769" />
+        <activity android:name=".pag16" />
+        <activity android:name=".pag17" />
+        <activity android:name=".pag18" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SecondaPagIn"></activity>
+        <activity android:name=".pag14"></activity>
+    </application>
+
+</manifest>

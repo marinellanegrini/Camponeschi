@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conclusione">
+
+    <ImageView
+        android:id="@+id/stemmacon"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="420dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="420dp"
+        android:layout_marginBottom="1723dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <TextView
+        android:id="@+id/testocon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="472dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="472dp"
+        android:text="@string/progetto"
+        android:textColor="@color/grigioscuro"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stemmacon" />
+
+    <TextView
+        android:id="@+id/testocon2"
+        android:layout_width="1071dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="1164dp"
+        android:text="@string/nome_progetto"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testocon3"
+        android:layout_width="844dp"
+        android:layout_height="377dp"
+        android:layout_marginStart="297dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="667dp"
+        android:text="@string/acura"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fotocon"
+        android:layout_width="740dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="349dp"
+        android:layout_marginEnd="351dp"
+        android:layout_marginBottom="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imm19" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pag18">
+
+    <TextView
+        android:id="@+id/titolop18"
+        android:layout_width="932dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="7dp"
+        android:text="@string/convittori"
+        android:textColor="@android:color/black"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/stemmap18"
+        android:layout_width="245dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintEnd_toStartOf="@+id/titolop18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <ImageView
+        android:id="@+id/fotop182"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="508dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/immp182" />
+
+    <ImageView
+        android:id="@+id/fotop181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="940dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/immp181" />
+
+    <ImageView
+        android:id="@+id/geomp18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="993dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rosa_no" />
+
+    <View
+        android:id="@+id/viewp181"
+        android:layout_width="450sp"
+        android:layout_height="2sp"
+        android:layout_marginBottom="1380dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testop18"
+        android:layout_width="881dp"
+        android:layout_height="468dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="360dp"
+        android:text="@string/testo_convittori"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/viewp182"
+        android:layout_width="163dp"
+        android:layout_height="2sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="1108dp"
+        android:layout_marginEnd="1dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtnpag18"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/fucsia"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+</android.support.constraint.ConstraintLayout>

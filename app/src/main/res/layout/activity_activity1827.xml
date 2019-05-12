@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity1827">
+
+
+    <ImageView
+        android:id="@+id/stemma1827"
+        android:layout_width="248dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="1132dp"
+        android:layout_marginBottom="2155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/stemma" />
+
+    <TextView
+        android:id="@+id/titolo1827"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="2242dp"
+        android:text="palazzo_spaventa"
+        android:textColor="@android:color/black"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stemma1827"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/foto18272"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/foto18271"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toEndOf="@+id/foto18271"
+        app:layout_constraintTop_toBottomOf="@+id/titolo1827"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+    <ImageView
+        android:id="@+id/foto18271"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="344dp"
+        android:layout_marginEnd="605dp"
+        android:layout_marginBottom="1580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/desfoto18272"
+        android:layout_width="551dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="53dp"
+        android:text="descrizione_foto5"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/desfoto18271"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/foto18271"
+        app:layout_constraintTop_toBottomOf="@+id/foto18272" />
+
+    <TextView
+        android:id="@+id/desfoto18271"
+        android:layout_width="562dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="333dp"
+        android:layout_marginEnd="544dp"
+        android:layout_marginBottom="1447dp"
+        android:text="descrizione_foto6"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto18271"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view18271"
+        android:layout_width="675dp"
+        android:layout_height="2dp"
+        android:layout_marginEnd="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/foto18271"
+        app:layout_constraintEnd_toStartOf="@+id/foto18271"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view18272"
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="551dp"
+        android:layout_marginBottom="214dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/desfoto18272"
+        app:layout_constraintStart_toEndOf="@+id/foto18272"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/geom1827"
+        android:layout_width="272dp"
+        android:layout_height="676dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/desfoto18271"
+        app:layout_constraintTop_toBottomOf="@+id/stemma1827"
+        app:srcCompat="@drawable/arancio2" />
+
+    <TextView
+        android:id="@+id/desdata1827"
+        android:layout_width="291dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="936dp"
+        android:text="descrizione_data4"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view18273"
+        android:layout_width="276dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="1128dp"
+        android:background="@color/arancio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desdata1827" />
+
+    <TextView
+        android:id="@+id/testo1827"
+        android:layout_width="1121dp"
+        android:layout_height="1077dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="159dp"
+        android:text="testo4"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view18273" />
+
+    <TextView
+        android:id="@+id/data1827"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="8dp"
+        android:text="data4"
+        android:textColor="@color/arancio"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stemma1827" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtn1827"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/arancio"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testo1483"
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity1979">
+
+    <ImageView
+        android:id="@+id/stemma1979"
+        android:layout_width="248dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="1123dp"
+        android:layout_marginBottom="2164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <TextView
+        android:id="@+id/titolo1979"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="2233dp"
+        android:text="universita"
+        android:textColor="@android:color/black"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/foto1979"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="448dp"
+        android:layout_marginBottom="1344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/desfoto1979"
+        android:layout_width="811dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="560dp"
+        android:layout_marginBottom="1188dp"
+        android:text="desctizione_foto12"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/data1979"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="1100dp"
+        android:text="data7"
+        android:textColor="@color/blu"
+        android:textSize="110sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stemma1979" />
+
+    <View
+        android:id="@+id/view19791"
+        android:layout_width="437dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1680dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view19792"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginBottom="1694dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/foto1979"
+        app:layout_constraintTop_toBottomOf="@+id/titolo1979" />
+
+    <TextView
+        android:id="@+id/desdata1979"
+        android:layout_width="627dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="1196dp"
+        android:layout_marginEnd="8dp"
+        android:text="descrizione_data7"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view19793"
+        android:layout_width="589dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="819dp"
+        android:layout_marginBottom="1160dp"
+        android:background="@color/blu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testo1979"
+        android:layout_width="1167dp"
+        android:layout_height="796dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="228dp"
+        android:text="testo7"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/geom1979"
+        android:layout_width="323dp"
+        android:layout_height="827dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="548dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logogiu" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtn1979"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/blu"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testo1483"
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+</android.support.constraint.ConstraintLayout>

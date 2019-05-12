@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pag17">
+
+    <ImageView
+        android:id="@+id/geomp17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1093dp"
+        android:layout_marginBottom="1140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arancione_no" />
+
+    <TextView
+        android:id="@+id/titolop17"
+        android:layout_width="505dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="604dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="432dp"
+        android:text="@string/neviera"
+        android:textColor="@android:color/black"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/stemmap17"
+        android:layout_width="248sp"
+        android:layout_height="272sp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="174dp"
+        app:layout_constraintEnd_toStartOf="@+id/titolop17"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <ImageView
+        android:id="@+id/fotop17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="1152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/geomp17"
+        app:srcCompat="@drawable/immp17" />
+
+    <View
+        android:id="@+id/viewp171"
+        android:layout_width="481dp"
+        android:layout_height="2sp"
+        android:layout_marginTop="964dp"
+        android:layout_marginEnd="2dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/fotop17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewp172"
+        android:layout_width="113dp"
+        android:layout_height="2sp"
+        android:layout_marginTop="964dp"
+        android:layout_marginEnd="7dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fotop17"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/testop17"
+        android:layout_width="1002dp"
+        android:layout_height="689dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/descr_laneviera"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtnpag17"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/arancio"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+
+</android.support.constraint.ConstraintLayout>

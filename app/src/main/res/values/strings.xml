@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Progetto</string>
+
+    <string name="Titolo">IL PALAZZO FINO AI NOSTRI GIORNI</string>
+
+
+
+    <string name="facciata">La facciata settecentesca attualmente restaurata</string>
+    <string name="testo8">La facciata principale, su via Camponeschi, fu realizzata dai Gesuiti dopo il sisma del 1703. Il palazzo, in precedenza, aveva una diversa facies: nel XVII secolo l’unico corpo di fabbrica completo era quello adiacente alla chiesa di S. Margherita, mentre in via Camponeschi c’erano abitazioni appartenenti a privati.
+</string>
+
+    <string name="particolari">Nuovi particolari emersi in seguito ai restauri post-sisma</string>
+    <string name="testo9">Nuove tracce sconosciute sono riaffiorate dall’intonaco pre-2009. Qui si osservano le iniziali di tutti i membri della famiglia Di Costanzo che il nobile padre fece affrescare sulla parete per la nascita della piccola Maddalena. I Di Costanzo, duchi di Paganica, abitarono il palazzo tra il 1783 e il 1827.
+</string>
+
+    <string name="progetto">Progetto di ricerca
+</string>
+    <string name="nome_progetto">«Società e cultura all’Aquila tra i secoli XVI e XVIII: la città e l’Europa»
+</string>
+    <string name="acura">A cura di Prof.ssa Silvia Mantini (responsabile scientifico) e Dott. Stefano Boero
+</string>
+
+
+    <string name="titolo">Manoscritti sulla storia del palazzo</string>
+
+    <string name="sottotitolo">Manoscritti dell’Archivum Romanum Societatis Iesu e dell’Archivio della Provincia Euromediterranea di Roma:  </string>
+
+    <string name="immagine1">Elenchi dei docenti tra il 1730 e il 1734</string>
+
+    <string name="immagine2">Atti relativi al rientro dei Gesuiti dopo le soppressioni postunitarie</string>
+
+
+
+
+
+
+
+    <string name="descrizione_pag16">Restituzioni toponomastiche e preesistenze</string>
+    <string name="testo_pag16">«Strada del Archo di S. Chiara», attuale via dell’Annunziata, era così denominata per il collegamento con il vicino monastero di S. Chiara. Sono molte le tracce visibili di archi e di altri particolari presistenti e poi murati.
+</string>
+
+
+    <string name="neviera">La neviera</string>
+    <string name="descr_laneviera">In seguito ai lavori di restauro, in un luogo riparato nel piano seminterrato, è stata riportata alla luce la neviera del palazzo, destinata al deposito della neve raccolta durante l’inverno per la conservazione degli alimenti. L’esistenza di neviere è riscontrabile anche negli ambienti sotterranei di altri palazzi all’Aquila.
+</string>
+
+
+    <string name="convittori">La cappella dei convittori</string>
+    <string name="testo_convittori">I convittori
+del Collegio Aquilano recitavano le loro orazioni in un’apposita cappella, di cui si era persa traccia, individuata grazie alla documentazione fotografica
+degli archivi gesuitici romani e al
+lavoro condotto dai restauratori.
+</string>
+
+    <string name="doposisma">Palazzo Camponeschi dopo il sisma del 6 aprile 2009</string>
+    <string name="descrdoposisma">Il terremoto del 2009 ha comportato gravi lesioni alle strutture portanti del palazzo; in seguito ai lavori di restauro e consolidamento dell’edificio sono riemerse importanti stratificazioni preesistenti.
+</string>
+
+
+    <string name="facciata1">LA FACCIATA SETTECENTESCA</string>
+    <string name="particolari1">PARTICOLARI EMERSI IN SEGUITO AI RESTAURI POST-SISMA</string>
+    <string name="neviera1">LA NEVIERA</string>
+    <string name="convittori1">LA CAPPELLA DEI CONVITTORI</string>
+    <string name="titolo1">MANOSCRITTI SULLA STORIA DEL PALAZZO</string>
+    <string name="secondapagina">L’EVOLUZIONE STORICA DEL PALAZZO</string>
+    <string name="descrizione_pag161">RESTITUZIONI TOPONOMASTICHE E PREESISTENZE</string>
+    <string name="titologallery1">PALAZZO    CAMPONESCHI DOPO IL SISMA DEL 6 APRILE 2009</string>
+
+    <string name="altre_info">ALTRE INFO</string>
+
+
+</resources>

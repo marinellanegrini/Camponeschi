@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity1926">
+
+    <ImageView
+        android:id="@+id/stemma1926"
+        android:layout_width="248dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="1127dp"
+        android:layout_marginBottom="2164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <TextView
+        android:id="@+id/titolo1926"
+        android:layout_width="1018dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="136dp"
+        android:text="nuovo_collegio"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="90sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/foto19261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolo1926"
+         />
+
+    <ImageView
+        android:id="@+id/foto19262"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="1396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/foto19263"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="372dp"
+        android:layout_marginBottom="1305dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/desfoto19261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="52dp"
+        android:text="descrizione_foto9"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/foto19262"
+        app:layout_constraintTop_toBottomOf="@+id/foto19261" />
+
+    <TextView
+        android:id="@+id/desfoto19262"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1420dp"
+        android:text="descrizione_foto10"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/desfoto19263"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="1312dp"
+        android:text="descrizione_foto11"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/view19261"
+        android:layout_width="459dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="507dp"
+        android:layout_marginBottom="128dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/foto19263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolo1926" />
+
+    <View
+        android:id="@+id/view19262"
+        android:layout_width="270dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="73dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toEndOf="@+id/foto19262"
+        app:layout_constraintTop_toBottomOf="@+id/desfoto19261" />
+
+    <ImageView
+        android:id="@+id/geom1926"
+        android:layout_width="wrap_content"
+        android:layout_height="458dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="1250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data1926"
+        app:srcCompat="@drawable/rosa_lungo" />
+
+    <TextView
+        android:id="@+id/data1926"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="235dp"
+        android:text="data6"
+        android:textColor="@color/fucsia"
+        android:textSize="110sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolo1926" />
+
+    <TextView
+        android:id="@+id/desdata1926"
+        android:layout_width="414dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="1120dp"
+        android:text="descrizione_data6"
+        android:textColor="@color/grigioscuro"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view19263"
+        android:layout_width="411dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="1117dp"
+        android:background="@color/fucsia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testo1926"
+        android:layout_width="1077dp"
+        android:layout_height="990dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="89dp"
+        android:text="testo6"
+        android:textAlignment="center"
+        android:textColor="@color/grigioscuro"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtn1926"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/fucsia"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testo1483"
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+</android.support.constraint.ConstraintLayout>

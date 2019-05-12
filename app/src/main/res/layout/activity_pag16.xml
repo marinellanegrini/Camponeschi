@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pag16">
+
+    <ImageView
+        android:id="@+id/fotop163"
+        android:layout_width="314dp"
+        android:layout_height="385dp"
+        android:layout_marginStart="417dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="636dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/immp164" />
+
+    <ImageView
+        android:id="@+id/fotop161"
+        android:layout_width="707dp"
+        android:layout_height="701dp"
+        android:layout_marginStart="716dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="696dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/immp161" />
+
+    <ImageView
+        android:id="@+id/fotop162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fotop164"
+        app:srcCompat="@drawable/immp163" />
+
+    <ImageView
+        android:id="@+id/fotop164"
+        android:layout_width="479dp"
+        android:layout_height="448dp"
+        android:layout_marginStart="393dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fotop162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/immp162" />
+
+    <TextView
+        android:id="@+id/titolop16"
+        android:layout_width="1073dp"
+        android:layout_height="385dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/descrizione_pag16"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stemmap16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/stemmap16"
+        android:layout_width="248sp"
+        android:layout_height="272sp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/titolop16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stemma" />
+
+    <ImageView
+        android:id="@+id/geomp16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1308dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/verdeaq" />
+
+    <View
+        android:id="@+id/viewp161"
+        android:layout_width="600dp"
+        android:layout_height="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1692dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/testop16"
+        android:layout_width="693dp"
+        android:layout_height="639dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="1340dp"
+        android:text="@string/testo_pag16"
+        android:textColor="@color/grigioscuro"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/viewp162"
+        android:layout_width="128dp"
+        android:layout_height="2sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="796dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbtnpag16"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="1244dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/blunotte"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+
+        app:backgroundTint="@color/blunotte"
+        app:fabCustomSize="68dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/arrowleftmedia" />
+
+
+
+</android.support.constraint.ConstraintLayout>
